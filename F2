@@ -20,7 +20,7 @@ return function(io)
 			local t = io[3]:FindFirstChild("Appraiser")
 			if not t then
 				if not v then
-					hrp.CFrame = io[4]["moosewood"].CFrame	
+					hrp.CFrame = io[4]["moosewood"].CFrame + Vector3.new(0, 3, 0)
 				end
 				task.wait()
 				return f(true)
