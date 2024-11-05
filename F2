@@ -8,6 +8,8 @@ return function(io)
 	end
 	local hrp = io[2].Character.HumanoidRootPart
 	local fz, s, at = io[1].e.Value, hrp.CFrame, 0
+	io[2].Character.Humanoid.Sit = false
+	io[1].e:SetValue(true)
 	local function temp()
 		if at == att then
 			return
