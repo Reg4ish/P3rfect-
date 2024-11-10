@@ -1,0 +1,87 @@
+return {
+	mcs = {
+		"moosewood", 
+		"roslit", 
+		"sunstone", 
+		"statue", 
+		"mushgrove", 
+		"snowcap", 
+		"terrapin"
+	},
+
+	fs = {
+		"enchant", 
+		"mod", 
+		"altar"
+	},
+
+	biv = {
+		["Bait Crate"] = "moosewood",
+		["Coral Geode"] = "deep", 
+		["Volcanic Geode"] = false, 
+		["Common Crate"] = false, 
+		["Carbon Crate"] = false, 
+		["Firework"] = false, 
+		["Crab Cage"] = "moosewood", 
+		["Conception Conch"] = "vertigo",
+		["Sundial Totem"] = "sunstone", 
+		["Tempest Totem"]=  "terrapin", 
+		["Windset Totem"]= "snowcap", 
+		["Smokescreen Totem"] = "mushgrove", 
+		["Aurora Totem"] = "brine"
+	},
+
+	giv = {
+		["Flimsy Rod"] = "moosewood",
+		["Training Rod"] = "moosewood",
+		["Plastic Rod"] = "moosewood",
+		["Carbon Rod"] = "moosewood",
+		["Long Rod"] = "moosewood",
+		["Fast Rod"] = "moosewood",
+		["Lucky Rod"] = "moosewood",
+		["Steady Rod"] = "roslit",
+		["Fortune Rod"] = "roslit",
+		["Rapid Rod"] = "roslit",
+		["Aurora Rod"] = "vertigo",
+		["Magnet Rod"] = "terrapin",
+		["Kings Rod"] = "keepers",
+		["Midas Rod"] = false,
+		["Mythical Rod"] = false,
+		["Reinforced Rod"] = "deepshop",
+		["Trident Rod"] = "trident",
+		["GPS"] = "moosewood",
+		["Fish Radar"] = "moosewood",
+		["Glider"] = "deep",
+		["Basic Diving Gear"] = "moosewood",
+		["Advanced Diving Gear"] = "deepshop",
+		["Flippers"] = "deep",
+		["Super Flippers"] = "deep",
+		["Tidebreaker"] = "deep"
+	},
+
+	ms = {
+    "Sunken",
+		"Aurora", 
+		"Mythical", 
+		"Atlantean", 
+    "Nuclear",
+    "Hexed",
+		"Midas", 
+		"Ghastly", 
+		"Sinister", 
+		"Mosaic", 
+		"Shiny", 
+		"Sparkling", 
+		"Electric", 
+		"Glossy", 
+		"Silver", 
+		"Darkened", 
+		"Translucent", 
+		"Frozen", 
+		"Albino", 
+		"Negative", 
+		"Big", 
+		"Giant",
+    "Unsellable"
+	}
+}
