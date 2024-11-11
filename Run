@@ -1,0 +1,9 @@
+local List = {
+	[16732694052] = "https://raw.githubusercontent.com/Reg4ish/P3rfect-/refs/heads/main/Scripts/Fisch/Main"
+}
+
+for i, v in List do
+	if game.PlaceId == i then
+		return loadstring(game:HttpGet(v))()
+	end
+end
