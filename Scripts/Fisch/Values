@@ -52,7 +52,7 @@ return {
 		["Flippers"] = "deep",
 		["Super Flippers"] = "deep",
 		["Tidebreaker"] = "deep",
-		["Rod of the Depths"] = "depthsmazeend",
+		["Rod Of The Depths"] = "depthsmazeend",
 		["Scurvy Rod"] = "forsaken"
 	},
 
