@@ -1,5 +1,5 @@
 return {
-	mcs = {
+	Merchant_Spawn = {
 		"moosewood", 
 		"roslit", 
 		"sunstone", 
@@ -7,16 +7,10 @@ return {
 		"mushgrove", 
 		"snowcap", 
 		"terrapin",
-		"foresaken"
+		"forsaken"
 	},
 
-	fs = {
-		"enchant", 
-		"mod", 
-		"altar"
-	},
-
-	biv = {
+	Consumable = {
 		["Bait Crate"] = "moosewood",
 		["Coral Geode"] = "deep", 
 		["Volcanic Geode"] = false, 
@@ -32,7 +26,7 @@ return {
 		["Aurora Totem"] = "brine"
 	},
 
-	giv = {
+	Non_Consumable = {
 		["Flimsy Rod"] = "moosewood",
 		["Training Rod"] = "moosewood",
 		["Plastic Rod"] = "moosewood",
@@ -57,32 +51,27 @@ return {
 		["Advanced Diving Gear"] = "deepshop",
 		["Flippers"] = "deep",
 		["Super Flippers"] = "deep",
-		["Tidebreaker"] = "deep"
+		["Tidebreaker"] = "deep",
+		["Rod of the Depths"] = "vertigo",
+		["Scurvy Rod"] = "forsaken"
 	},
 
-	ms = {
-		"Sunken",
-		"Aurora", 
-		"Mythical", 
-		"Atlantean", 
-		"Nuclear",
-		"Hexed",
+	Mutation = {
+		"Lunar", 
+		"Hexed", 
 		"Midas", 
-		"Ghastly", 
-		"Sinister", 
-		"Mosaic", 
 		"Shiny", 
 		"Sparkling", 
 		"Electric", 
 		"Glossy", 
 		"Silver", 
+		"Mosaic", 
 		"Darkened", 
 		"Translucent", 
 		"Frozen", 
-		"Albino", 
 		"Negative", 
+		"Albino", 
 		"Big", 
-		"Giant",
-		"Unsellable"
+		"Giant"
 	}
 }
