@@ -1,5 +1,6 @@
 local List = {
-	[16732694052] = "https://raw.githubusercontent.com/Reg4ish/P3rfect-/refs/heads/main/Scripts/Fisch/Main"
+	[16732694052] = "https://raw.githubusercontent.com/Reg4ish/P3rfect-/refs/heads/main/Scripts/Fisch/Main",
+	[3221241066] = "https://raw.githubusercontent.com/Reg4ish/P3rfect-/refs/heads/main/Scripts/DEADZONE%20CLASSIC/Main"
 }
 
 for i, v in List do
